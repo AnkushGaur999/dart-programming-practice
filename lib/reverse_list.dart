@@ -1,5 +1,8 @@
 void main() {
   List<int> list = [5, 9, 7, 8, 2, 7, 3];
+  var result = reverseList(list);
+
+  print(result);
 }
 
 List<int> reverseList(List<int> list) {
